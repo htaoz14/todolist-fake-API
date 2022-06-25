@@ -1,0 +1,11 @@
+GET http://localhost:3000/products HTTP/1.1
+###
+GET http://localhost:3000/products/1 HTTP/1.1
+
+### lọc công việc theo trạng thái : rating 
+GET http://localhost:3000/products?rating=4.5 HTTP/1.1
+
+### sắp xếp giá tiền theo thứ tự tăng dần
+GET http://localhost:3000/products?_sort=price&_order=asc  HTTP/1.1
+###
+GET http://localhost:3000// HTTP/1.1
